@@ -5,21 +5,14 @@ body {
   /* background-color: #4d3e3e; */
   /* color: #fcdec0; */
   background-image: linear-gradient(to right bottom, #f1d6ab, #f4debd, #f6e6ce, #f8eee0, #f9f6f2);
-  overflow-x: auto;
+  overflow-x: hidden;
   font-family: "Neucha", cursive;
   font-weight: 200;
 }
 
-.nav-contain {
-  margin-left: 30rem;
-}
-
-#navbarText li {
-  margin-left: 2rem;
-}
 .custom-nav {
   background-color: #f1d6ab;
-  color: #bb7b58;
+  color: #bb7b58 !important;
   font-weight: 500;
   font-size: larger;
 }
