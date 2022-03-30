@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+3D&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+body {
+  /* background-color: #4d3e3e; */
+  /* color: #fcdec0; */
+  background-image: linear-gradient(to right bottom, #f1d6ab, #f4debd, #f6e6ce, #f8eee0, #f9f6f2);
+  overflow-x: auto;
+  font-family: "Neucha", cursive;
+  font-weight: 200;
+}
+
+.nav-contain {
+  margin-left: 30rem;
+}
+
+#navbarText li {
+  margin-left: 4rem;
+}
+.custom-nav {
+  background-color: #f1d6ab;
+  color: #bb7b58;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.custom-nav a {
+  color: #bb7b58;
+  font-size: larger;
+}
+
+a:hover {
+  color: #f8eee0 !important;
+}
+
+.logointro button {
+  border-radius: 0.7rem;
+  border-color: #865439;
+  border-width: 0.2rem;
+  color: #865439;
+  background-color: transparent;
+}
+
+.logointro button:hover {
+  color: #f3e8e2;
+  background-color: #865439;
+}
+
+.logofont {
+  font-family: "Palette Mosaic", cursive;
+  font-size: 5rem;
+  font-weight: 550;
+  color: #865439;
+}
+
+.service-custom {
+  background-color: #f9f6f2;
+}
+
+.service-custom1 {
+  background-color: #f1d6ab;
+}
+
+.service-custom2 {
+  background-color: #f8eee0;
+}
+
+.paralax-bg {
+  background-image: url("Images/MemberSecBg.svg");
+  background-size: cover;
+}
+
+h2 {
+  color: #865439;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+.tech-img {
+  width: 7rem;
+  height: 7rem;
+  padding: 0 1rem 0 1rem;
+}
+.img-custom img {
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+  border-radius: 0 !important;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.members-section img {
+  border-radius: 20rem;
+  width: 8rem;
+  height: 8rem;
+}
+
+.torn-paper {
+  padding: 1rem;
+  background-color: #bb7956;
+  color: #f8ead3;
+}
+
+.torn-paper a {
+  color: #f1d6ab;
+  text-decoration: none;
+}
+
+.myfooter {
+  background-color: #9c694d;
+  color: #f3e8e2;
+  font-size: larger;
+}
+
+.myfooter h3 {
+  text-align: center;
+}
+
+.ul-custom ul {
+  /* height: max-content; */
+  border-left-width: 0.2rem;
+  border-left-style: solid;
+  border-left-color: #f6e6ce;
+  list-style: none;
+}
+
+.ul-custom ul li {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.ul-custom a {
+  color: #f9f6f2;
+  text-decoration: none;
+}
