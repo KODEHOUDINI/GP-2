@@ -17,20 +17,24 @@ body {
 }
 
 .custom-nav {
-  background-color: #f3c77f;
+  /* background-color: #f3c77f; */
+  background-image: url("Images/layered-peaks-haikei.svg");
+  background-size: contain;
+  background-repeat: repeat-x;
   color: #bb7b58 !important;
-  font-weight: 500;
+  font-weight: 600;
   font-size: larger;
   position: sticky;
 }
 
 .custom-nav a {
-  color: #bb7b58;
-  font-size: larger;
+  color: #f3e8e2;
+  font-size: x-large;
+  padding-bottom: 1.9rem;
 }
 
 a:hover {
-  color: #f8eee0 !important;
+  color: #865439 !important;
 }
 
 .logointro button {
