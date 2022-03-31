@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rock+3D&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
 body {
@@ -8,13 +8,20 @@ body {
   overflow-x: hidden;
   font-family: "Neucha", cursive;
   font-weight: 200;
+  width: fit-content;
+  margin: auto;
+}
+
+.logo {
+  font-family: "Permanent Marker", cursive;
 }
 
 .custom-nav {
-  background-color: #f1d6ab;
+  background-color: #f3c77f;
   color: #bb7b58 !important;
   font-weight: 500;
   font-size: larger;
+  position: sticky;
 }
 
 .custom-nav a {
